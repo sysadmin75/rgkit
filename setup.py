@@ -11,7 +11,7 @@ with open('README.rst') as readme_file:
 
 setup(
     name='rgkit',
-    version='1.0.0-dev',
+    version='1.0.0',
     description='Game Engine for Robot Game',
     maintainer='Kristopher Newsome',
     maintainer_email='kris@krisnewsome.com',
