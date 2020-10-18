@@ -33,6 +33,6 @@ def compute_color(player_id, hp, action):
     g += (100 - maxclr * 1.75) / 255
     b += (100 - maxclr * 1.75) / 255
     color = (r, g, b)
-    if action is 'guard' and render_settings.color_guard is not None:
+    if action == 'guard' and render_settings.color_guard is not None:
         color = blend_colors(color, render_settings.color_guard, 0.65)
     return color
