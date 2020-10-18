@@ -11,11 +11,11 @@ with open('README.rst') as readme_file:
 
 setup(
     name='rgkit',
-    version='0.5.3',
+    version='1.0.0-dev',
     description='Game Engine for Robot Game',
-    maintainer='Peter Wen',
-    maintainer_email='peter@whitehalmos.org',
-    url='https://github.com/RobotGame/rgkit',
+    maintainer='Kristopher Newsome',
+    maintainer_email='kris@krisnewsome.com',
+    url='https://github.com/sysadmin75/rgkit',
     packages=['rgkit', 'rgkit.render'],
     package_data={'rgkit': ['bots/*.py', 'maps/*.py']},
     license='Unlicense',
